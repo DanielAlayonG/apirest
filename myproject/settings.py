@@ -70,6 +70,10 @@ TEMPLATES = [
     },
 ]
 
+SWAGGER_SETTINGS = {
+   'USE_SESSION_AUTH': False
+}
+
 WSGI_APPLICATION = 'myproject.wsgi.application'
 
 
